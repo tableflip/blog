@@ -11,7 +11,7 @@ This weekly covers the last month. Here are some of the highlights for the Febru
 
 ## Highlight
 
-![](https://cdn-images-1.medium.com/max/2000/1*czZJ7mvEAqL4wNAg-jt9Ow.jpeg)
+![]({attach}/images/highlight.jpg)
 
 Our friends and users at ConsenSys wrote an excellent "[Introduction to IPFS](https://medium.com/@ConsenSys/an-introduction-to-ipfs-9bba4860abd0#.48ki3fymw)", which starts with a less-technical preface, and then dives deep into a full explanation of how the IPFS object model works. It walks through multiple examples, including directory structures, version control systems, and blockchains. This is a great post to familiarize yourself with how the low level IPFS objects work, with graph visualizations and in-depth explanations. It also features a fantastic cover image! Thanks [@ChrisLundkvist](https://twitter.com/ChrisLundkvist) and [@ConsenSysAndrew](https://twitter.com/ConsenSysAndrew)!
 
