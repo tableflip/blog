@@ -1,0 +1,13 @@
+{{ $length := (len .Data.Pages) -}}
+{
+    "pages" : [
+        {{ range $index, $element := .Data.Pages -}}
+        {
+            "title" : {{ .Title | jsonify }},
+            "date" : "{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}",
+            "url" : "{{ .Permalink }}",
+            "author" : "{{ .Params.author }}"
+        }{{ if ne (add $index 1) $length }},{{ end }}
+        {{ end -}}
+    ]
+}
