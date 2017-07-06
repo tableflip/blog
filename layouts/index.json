@@ -1,6 +1,6 @@
 {{ $length := (len .Data.Pages) -}}
 {
-    "pages" : [
+    "posts" : [
         {{ range $index, $element := .Data.Pages -}}
         {
             "title" : {{ .Title | jsonify }},
