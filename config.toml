@@ -10,4 +10,4 @@ relativeURLs = true
   github = "https://github.com/ipfs/blog"
 
 [outputs]
-  post = ["HTML", "RSS", "JSON"]
+  home = ["HTML", "RSS", "JSON"]
