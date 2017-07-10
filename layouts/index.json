@@ -1,7 +1,7 @@
 {{ $length := (len .Data.Pages) -}}
 {
     "posts" : [
-        {{ range $index, $element := .Data.Pages -}}
+        {{ range $index, $element := first 4 (sort (where (where .Data.Pages "Section" "post") "Kind" "page") "Params.date" "desc") -}}
         {
             "title" : {{ .Title | jsonify }},
             "date" : "{{ .Date.Format "02 January 2006" }}",
